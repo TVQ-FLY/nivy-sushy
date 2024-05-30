@@ -5,7 +5,7 @@
 }
 
 .header{
-    height: 900px;
+    min-height: 100vh;
     background-image: url(bg1.png);
 }
 
@@ -16,7 +16,7 @@
 }
 
 .content-one{
-    height: 900px;
+    min-height: 100vh;
     background-image: url(bg2.png);
 }
 
@@ -25,12 +25,12 @@
 }
 
 .content-two{
-    height: 900px;
+    min-height: 100vh;
     background-image: url(bg3.png);
 }
 
 .content-three{
-    height: 900px;
+    min-height: 100vh;
     background-image: url(bg4.png);
 }
 
