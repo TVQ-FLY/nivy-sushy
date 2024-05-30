@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 900px;
+    background-image: url(bg1.png);
+}
+
+.header-button{
+    bottom: 20%;
+    left: 0;
+    right: 0;
+}
+
+.content-one{
+    height: 900px;
+    background-image: url(bg2.png);
+}
+
+.content-one-text{
+    bottom: 13%;
+}
+
+.content-two{
+    height: 900px;
+    background-image: url(bg3.png);
+}
+
+.content-three{
+    height: 900px;
+    background-image: url(bg4.png);
+}
+
+.content-three-text{
+    top: 5%;
+    padding-left: 60%;
+}
