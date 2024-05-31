@@ -38,3 +38,18 @@
     top: 5%;
     padding-left: 60%;
 }
+
+.content-for{
+    min-height: 100vh;
+    background-image: url(bg5.png);
+}
+
+.content-for-text-one{
+    bottom: 5%;
+    padding-left: 15%;
+}
+
+.content-for-text-two{
+    top: 5%;
+    padding-left: 60%;
+}
