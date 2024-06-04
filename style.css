@@ -1,55 +1,103 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header{
+.header {
     min-height: 100vh;
     background-image: url(bg1.png);
 }
 
-.header-button{
+.header-button {
     bottom: 20%;
     left: 0;
     right: 0;
 }
 
-.content-one{
+.content-one {
     min-height: 100vh;
     background-image: url(bg2.png);
 }
 
-.content-one-text{
+.content-one-text {
     bottom: 13%;
 }
 
-.content-two{
+.content-two {
     min-height: 100vh;
     background-image: url(bg3.png);
 }
 
-.content-three{
+.content-three {
     min-height: 100vh;
     background-image: url(bg4.png);
 }
 
-.content-three-text{
+.content-three-text {
     top: 5%;
     padding-left: 60%;
 }
 
-.content-for{
+.content-for {
     min-height: 100vh;
     background-image: url(bg5.png);
 }
 
-.content-for-text-one{
+.content-for-text-one {
     bottom: 5%;
     padding-left: 15%;
 }
 
-.content-for-text-two{
+.content-for-text-two {
     top: 5%;
     padding-left: 60%;
+}
+
+.content-five {
+    min-height: 100vh;
+    background-image: url(bg6.png);
+}
+
+.content-six {
+    min-height: 110vh;
+    background-image: url(bg7.png);
+}
+
+.content-seven {
+    min-height: 100vh;
+    background-image: url(bg8.png);
+}
+.navbar a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    padding: 1rem 0;
+}
+.navbar a::before,
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: red;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.navbar a::before {
+    top: 0;
+}
+
+.navbar a::after {
+    bottom: 0;
+}
+
+.navbar a:hover::before,
+.navbar a:hover::after {
+    transform: scaleX(1);
 }
